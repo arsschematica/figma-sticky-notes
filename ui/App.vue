@@ -42,7 +42,7 @@ export default Vue.extend({
     return {
       text: '',
       currBackgroundIndex: 0,
-      backgroundColors: ['#7BDBFF', '#FF9083', '#CFA8FF', '#5CE3B1']
+      backgroundColors: ['#7BDBFF', '#FFA9C8', '#A5FF8E', '#FFF777', '#FFCD6C']
     };
   },
   components: {
@@ -136,7 +136,7 @@ export default Vue.extend({
   display: flex;
   align-items: center;
   justify-content: center;
-  text-align: center;
+  text-align: left;
   background: #eee;
   position: relative;
   transition: background-color 0.2s;

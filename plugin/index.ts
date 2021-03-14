@@ -70,7 +70,7 @@ figma.ui.onmessage = async msg => {
     text.fills = [{ type: 'SOLID', color: { r: 0, g: 0, b: 0 } }];
     text.fontName = { family: 'Roboto', style: 'Regular' };
     text.fontSize = msg.fontSize / viewportZoom;
-    text.textAlignHorizontal = 'CENTER';
+    text.textAlignHorizontal = 'LEFT';
     text.textAlignVertical = 'CENTER';
 
     // deal with empty note
